@@ -80,6 +80,14 @@ The following held-out FSBoard diagnostic illustrates how character probabilitie
 
 This example contains one character deletion and is an illustrative diagnostic sample, **not the full test-set benchmark**.
 
+## Project Report
+
+The complete academic project report is included in this repository:
+
+**[View the full SignBridge AI Project Report](docs/SignBridge_AI_Project_Report.pdf)**
+
+The report contains the complete methodology, system architecture, dataset discussion, preprocessing pipeline, model development and training, evaluation, experimental validation, SignBridge Live implementation, results, references, final working source code, development experiments, and diagnostic code.
+
 ## Repository Structure
 
 ```text
@@ -89,12 +97,14 @@ SignBridgeAI/
 ├── LICENSE
 ├── requirements.txt
 ├── .gitignore
-└── assets/
-    ├── system_architecture.png
-    ├── model_architecture.png
-    ├── validation_cer.png
-    ├── signbridge_live.png
-    └── character_probability_heatmap.png
+├── assets/
+│   ├── system_architecture.png
+│   ├── model_architecture.png
+│   ├── validation_cer.png
+│   ├── signbridge_live.png
+│   └── character_probability_heatmap.png
+└── docs/
+    └── SignBridge_AI_Project_Report.pdf
 ```
 
 ## Run the Project
