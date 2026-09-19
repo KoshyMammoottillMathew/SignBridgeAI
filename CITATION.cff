@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use or reference SignBridge AI, please cite this software."
+title: "SignBridge AI: Real-Time ASL Fingerspelling-to-Text Recognition Using Deep Learning"
+type: software
+authors:
+  - family-names: "Mathew"
+    given-names: "Koshy Mammoottill"
+repository-code: "https://github.com/KoshyMammoottillMathew/SignBridgeAI"
+license: MIT
+date-released: 2026-09-19
+abstract: "SignBridge AI is a deep-learning accessibility project for recognizing continuous American Sign Language fingerspelling from video and converting it into text using MediaPipe hand landmarks, temporal Conv1D layers, Bidirectional GRU layers, and Connectionist Temporal Classification."
+keywords:
+  - "ASL"
+  - "fingerspelling"
+  - "deep learning"
+  - "MediaPipe"
+  - "BiGRU"
+  - "CTC"
+  - "accessibility"
