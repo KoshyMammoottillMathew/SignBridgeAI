@@ -92,11 +92,12 @@ The report contains the complete methodology, system architecture, dataset discu
 
 ```text
 SignBridgeAI/
-├── SignBridge_AI_Training_and_Live_Demo.ipynb
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
 ├── .gitignore
+├── notebooks/
+│   └── SignBridge_AI_Training_and_Live_Demo.ipynb
 ├── assets/
 │   ├── system_architecture.png
 │   ├── model_architecture.png
@@ -111,7 +112,7 @@ SignBridgeAI/
 
 The main Colab-ready notebook is:
 
-**`SignBridge_AI_Training_and_Live_Demo.ipynb`**
+**[`notebooks/SignBridge_AI_Training_and_Live_Demo.ipynb`](notebooks/SignBridge_AI_Training_and_Live_Demo.ipynb)**
 
 Install the Python dependencies with:
 
