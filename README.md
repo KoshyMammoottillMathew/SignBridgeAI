@@ -88,6 +88,18 @@ The complete academic project report is included in this repository:
 
 The report contains the complete methodology, system architecture, dataset discussion, preprocessing pipeline, model development and training, evaluation, experimental validation, SignBridge Live implementation, results, references, final working source code, development experiments, and diagnostic code.
 
+## Dataset Attribution and Citation
+
+SignBridge AI uses the **FSboard** American Sign Language fingerspelling dataset introduced by Georg et al. at CVPR 2025. FSboard was collected from 147 paid and consenting Deaf signers and contains more than 3 million fingerspelled characters. The dataset and its authors' baseline are third-party research resources; they are not part of the original contributions of SignBridge AI.
+
+> Manfred Georg, Garrett Tanzer, Esha Uboweja, Saad Hassan, Maximus Shengelia, Sam Sepah, Sean Forbes, and Thad Starner. **"FSboard: Over 3 Million Characters of ASL Fingerspelling Collected via Smartphones."** Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025, pp. 13897–13906. DOI: 10.1109/CVPR52734.2025.01297.
+
+Official paper: https://openaccess.thecvf.com/content/CVPR2025/html/Georg_FSboard_Over_3_Million_Characters_of_ASL_Fingerspelling_Collected_via_CVPR_2025_paper.html
+
+The FSboard paper reports a ByT5-Small baseline using 30 Hz MediaPipe Holistic landmarks with **11.1% CER**. This is included only as published context and should not be treated as a directly controlled comparison with SignBridge AI because the model architecture, landmark inputs, preprocessing, and experimental setup differ.
+
+---
+
 ## Repository Structure
 
 ```text
