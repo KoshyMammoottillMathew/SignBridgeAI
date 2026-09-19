@@ -2,6 +2,14 @@
 
 **Real-Time ASL Fingerspelling-to-Text Recognition Using Deep Learning**
 
+[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-Keras-orange?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+[![MediaPipe](https://img.shields.io/badge/MediaPipe-Hand%20Landmarker-00A67E)](https://ai.google.dev/edge/mediapipe/solutions/vision/hand_landmarker)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Status](https://img.shields.io/badge/Status-Academic%20Project-informational)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KoshyMammoottillMathew/SignBridgeAI/blob/main/notebooks/SignBridge_AI_Training_and_Live_Demo.ipynb)
+
 SignBridge AI is an accessibility-focused deep-learning project that recognizes continuous **American Sign Language (ASL) fingerspelling** from video and converts it into text.
 
 > **Scope:** SignBridge AI recognizes ASL fingerspelling. It is not a full ASL language-translation system.
