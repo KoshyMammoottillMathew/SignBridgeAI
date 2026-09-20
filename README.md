@@ -14,6 +14,19 @@ SignBridge AI is an accessibility-focused deep-learning project that recognizes 
 
 > **Scope:** SignBridge AI recognizes ASL fingerspelling. It is not a full ASL language-translation system.
 
+## Key Results
+
+| Metric | Result |
+| --- | ---: |
+| Best validation CER | **16.32%** |
+| Later cached FSBoard test-split CER | **15.96%** |
+| Model parameters | **2,340,410** |
+| Input features | **63 per frame (21 × x,y,z)** |
+
+## What I Built
+
+I built an end-to-end, storage-efficient pipeline for continuous ASL fingerspelling recognition: incremental FSBoard video preprocessing, normalized MediaPipe hand-landmark extraction, Temporal Conv1D and Bidirectional GRU sequence modelling with CTC, evaluation using Character Error Rate, and an interactive Gradio webcam prototype for near-real-time inference.
+
 ## System Architecture
 
 ![SignBridge AI System Architecture](assets/system_architecture.png)
@@ -114,6 +127,7 @@ The FSboard paper reports a ByT5-Small baseline using 30 Hz MediaPipe Holistic l
 SignBridgeAI/
 ├── README.md
 ├── LICENSE
+├── CITATION.cff
 ├── requirements.txt
 ├── .gitignore
 ├── notebooks/
